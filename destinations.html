@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+    }
+
+    .navbar {
+        background-color: #001f3f !important;
+    }
+
+    .nav-link {
+        color: white !important;
+        font-weight: 500;
+        margin: 0 5px;
+    }
+
+    .nav-link:hover {
+        color: #6699ff !important;
+    }
+
+    h2 {
+        color: #001f3f;
+    }
+
+    section.bg-light {
+        background: linear-gradient(to bottom right, #f0f8ff, #e6f7ff);
+    }
+
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <span class="fw-bold text-white">El Nido Paradise</span>
+            </a>
+
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10 text-center">
+                    <h2 class="fw-bold mb-3 mt-5">Discover the Beauty of El Nido</h2>
+                    <p class="text-muted">
+                        El Nido is one of the most breathtaking places in the Philippines, located in the northern part
+                        of Palawan. It is known for its clear blue waters, tall limestone cliffs, and beautiful white
+                        sand beaches. This tropical paradise is filled with hidden lagoons, secret beaches, and colorful
+                        coral reefs that attract travelers from around the world.
+                    </p>
+                    <p class="text-muted">
+                        Each destination in El Nido offers a unique experience — you can relax and swim at
+                        <strong>7 Commandos Beach</strong>, explore the stunning rock formations and turquoise waters of
+                        the
+                        <strong>Big Lagoon</strong>, or kayak through the peaceful <strong>Small Lagoon</strong> on
+                        Miniloc Island. You can also visit
+                        <strong>Shimizu Island</strong>, a popular spot for snorkeling and diving where you can see
+                        vibrant marine life up close.
+                    </p>
+                    <p class="text-muted">
+                        Whether you want to unwind, go on an island-hopping tour, or simply enjoy nature’s beauty, El
+                        Nido is the perfect destination that captures the true paradise of the Philippines.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-3 bg-light">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap text-center text-md-start">
+                <div>
+                    <h2 class="fw-bold">Top Destinations in El Nido</h2>
+                    <p class="text-muted mb-0">From pristine lagoons to hidden beaches, explore the breathtaking beauty
+                        of El Nido.</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
+                        <img src="images/7commandos.webp" class="card-img-top" alt="7 Commandos Beach"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body text-start d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="fw-bold mb-1">7 Commandos Beach</h5>
+                                <p class="text-muted small mb-1">El Nido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
+                        <img src="images/biglagoon.jpg" class="card-img-top" alt="Big Lagoon"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body text-start d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="fw-bold mb-1">Big Lagoon</h5>
+                                <p class="text-muted small mb-1">El Nido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
+                        <img src="images/smalllagoon.jpg" class="card-img-top" alt="Small Lagoon"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body text-start d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="fw-bold mb-1">Small Lagoon</h5>
+                                <p class="text-muted small mb-1">Miniloc Island</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
+                        <img src="images/shimizu.webp" class="card-img-top" alt="Shimizu Island"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body text-start d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="fw-bold mb-1">Shimizu Island</h5>
+                                <p class="text-muted small mb-1">El Nido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
+                        <img src="images/snake.webp" class="card-img-top" alt="Snake Island"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body text-start d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="fw-bold mb-1">Snake Island</h5>
+                                <p class="text-muted small mb-1">El Nido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
+                        <img src="images/cadlao.webp" class="card-img-top" alt="Cadlao Island"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body text-start d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="fw-bold mb-1">Cadlao Island</h5>
+                                <p class="text-muted small mb-1">El Nido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
+                        <img src="images/entululua.webp" class="card-img-top" alt="Entalula Island"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body text-start d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="fw-bold mb-1">Entalulua Island</h5>
+                                <p class="text-muted small mb-1">El Nido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
+                        <img src="images/pinagbuyutan.jpg" class="card-img-top" alt="Pinagbuyutan Island"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body text-start d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="fw-bold mb-1">Pinagbuyutan Island</h5>
+                                <p class="text-muted small mb-1">El Nido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
+                        <img src="images/secretlagoon.jpg" class="card-img-top" alt="Secret Lagoon"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body text-start d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="fw-bold mb-1">Secret Lagoon</h5>
+                                <p class="text-muted small mb-1">El Nido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
+                        <img src="images/matinloc.jpg" class="card-img-top" alt="Matinloc Island"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body text-start d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="fw-bold mb-1">Matinloc Island</h5>
+                                <p class="text-muted small mb-1">El Nido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
+                        <img src="images/nacpan.webp" class="card-img-top" alt="Nacpan Beach"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body text-start d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="fw-bold mb-1">Nacpan Beach</h5>
+                                <p class="text-muted small mb-1">Twin Beach Paradise</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
